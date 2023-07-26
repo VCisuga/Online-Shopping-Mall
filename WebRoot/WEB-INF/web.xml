@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>Servlets.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>Servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyServlet</servlet-name>
+    <servlet-class>Servlets.ModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddGoodsServlet</servlet-name>
+    <servlet-class>Servlets.AddGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddToCart</servlet-name>
+    <servlet-class>Servlets.AddToCart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllGoodsServlet</servlet-name>
+    <servlet-class>Servlets.GetAllGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProcessCart</servlet-name>
+    <servlet-class>Servlets.ProcessCart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyServlet</servlet-name>
+    <servlet-class>Servlets.BuyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyGoods</servlet-name>
+    <servlet-class>Servlets.ModifyGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetOrderList</servlet-name>
+    <servlet-class>Servlets.GetOrderList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ClearCart</servlet-name>
+    <servlet-class>Servlets.ClearCart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsShare</servlet-name>
+    <servlet-class>Bean.GoodsShare</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetKeyGoods</servlet-name>
+    <servlet-class>Servlets.GetKeyGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DleGoodsNum</servlet-name>
+    <servlet-class>Servlets.DleGoodsNum</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyOrder</servlet-name>
+    <servlet-class>Servlets.ModifyOrder</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyServlet</servlet-name>
+    <url-pattern>/ModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGoodsServlet</servlet-name>
+    <url-pattern>/AddGoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddToCart</servlet-name>
+    <url-pattern>/AddToCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllGoodsServlet</servlet-name>
+    <url-pattern>/GetAllGoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProcessCart</servlet-name>
+    <url-pattern>/ProcessCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyServlet</servlet-name>
+    <url-pattern>/BuyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyGoods</servlet-name>
+    <url-pattern>/ModifyGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOrderList</servlet-name>
+    <url-pattern>/GetOrderList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClearCart</servlet-name>
+    <url-pattern>/ClearCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsShare</servlet-name>
+    <url-pattern>/servlet/GoodsShare</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetKeyGoods</servlet-name>
+    <url-pattern>/GetKeyGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DleGoodsNum</servlet-name>
+    <url-pattern>/DleGoodsNum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyOrder</servlet-name>
+    <url-pattern>/ModifyOrder</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
